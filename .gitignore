@@ -1,0 +1,26 @@
+# Local credentials and private configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+service-account*.json
+
+# Internal research, drafts and source documents
+/work/
+/outputs/
+/attachments/
+*.mhtml
+*.doc
+*.docx
+*.bundle
+
+# Local tooling
+node_modules/
+__pycache__/
+*.log
+.DS_Store
+Thumbs.db
